@@ -1,0 +1,48 @@
+.h2Nosotros{
+    text-align: center;
+    font-size: 8rem;
+    margin-bottom: 10px;
+}
+
+.imagenNosotros{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pNosotros{
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    word-spacing: 2px;
+}
+
+.ubiHorario{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.ubicacion{
+    display: flex;
+    justify-content: left;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.horario{
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    margin-right: 15px;
+}
+
+.pNosotrosTitle{
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+}
+
+.pUbi{
+    font-family: 'Roboto', sans-serif;
+}
+

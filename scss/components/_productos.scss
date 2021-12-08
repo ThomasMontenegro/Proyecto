@@ -1,0 +1,58 @@
+.productosVariedad{
+    color: black; 
+    font-size: 6rem;
+    font-family:'Roboto', sans-serif; 
+    text-align: center;
+}
+
+.h3Titles{
+    font-family:'Roboto', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.pProductos{
+    font-family:'Roboto', sans-serif;
+    font-size: 25px;
+    padding: 10px;
+}
+
+.pProductosFin{
+    font-family:'Roboto', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.imgProductos:hover{
+    transform: scale(3);
+}
+
+.mates{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 25px;
+}
+
+.velas{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 25px;
+}
+
+.almohadones{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 25px;
+}
+
+.macetas{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 25px;
+}

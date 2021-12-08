@@ -1,0 +1,44 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.titulo{
+    color: black;
+    font-size: 40px;
+    font-family: 'Nunito', sans-serif;
+    text-decoration: none;
+}
+
+.titulo:hover{
+    color: black;
+}
+
+
+
+.logoHeader{
+    width: 20%;
+}
+.headerA{
+    color: black; font-size: 25px; padding: 15px; 
+}
+
+header{
+    background-color: white;
+    border-color: black;
+    border-style: none;
+}
+
+.liHeader{
+    font-family: 'Roboto', sans-serif ;
+    display: inline-block;
+    text-align: left;
+    list-style: circle;
+    margin-top: 5px;
+}
+
+.liHeader:hover{
+    background-color: pink;
+    transition-duration: 1s;
+}

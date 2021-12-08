@@ -1,0 +1,21 @@
+/*extends*/
+%propiedades {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.liFooter{
+    display: inline-block;
+    @extend %propiedades;
+}
+
+.footerContacto{
+    color: white;
+    @extend %propiedades;
+}
+
+.instagram{
+    display: flex;
+    justify-content: center;
+    @extend %propiedades;
+}

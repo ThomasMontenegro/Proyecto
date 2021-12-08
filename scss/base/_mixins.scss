@@ -1,0 +1,9 @@
+@mixin textoGrid {
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 15px;
+}
+
+.textoMix {
+    @include textoGrid;
+}

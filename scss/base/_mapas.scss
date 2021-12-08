@@ -1,0 +1,50 @@
+/*mapas*/
+
+$nosotros:(
+ font-nosotros:2em,
+ margin-nosotros: 40px,
+);
+
+//general//
+
+header{
+    margin-bottom: map-get($nosotros, margin-nosotros);
+}
+
+.volverHome{
+    font-size: map-get($nosotros,font-nosotros );
+}
+
+//ventana contacto//
+
+.contactoBody{
+    font-size: map-get($nosotros, font-nosotros);
+}
+
+//ventana nosotros//
+
+.pUbi{
+    font-size: map-get($nosotros, font-nosotros);
+}
+
+.imagenNosotros{
+    margin-bottom: map-get($nosotros, margin-nosotros);
+}
+
+.ubiNosotros{
+    margin-bottom: map-get($nosotros , margin-nosotros);
+}
+
+.pNosotros{
+    margin-bottom: map-get($nosotros, margin-nosotros);
+}
+
+//productos//
+
+.productosVariedad{
+    margin-bottom: map-get($nosotros, margin-nosotros );
+}
+
+.h3Titles{
+    margin-bottom: map-get($nosotros, margin-nosotros);
+}

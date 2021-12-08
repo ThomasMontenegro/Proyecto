@@ -1,0 +1,50 @@
+//imports//
+
+@import "components/header";
+@import "components/footer";
+@import "components/index";
+@import "components/productos";
+@import "components/promociones";
+@import "components/nosotros";
+@import "components/contacto";
+@import "base/queries";
+@import "base/mapas";
+@import "base/mixins";
+@import "base/extends";
+
+//general// 
+*{
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    font-family: 'Roboto', sans-serif;
+    list-style: none;
+    list-style-position: outside;
+}
+
+.VolverHome{
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.bg-pink{
+    background-color: pink;
+}
+body{
+    background-color: pink !important;
+    background-repeat: repeat;
+}
+
+main{
+    margin-bottom: 40px;
+}
+

@@ -1,0 +1,74 @@
+@media only screen and (max-width:499px){
+    .header{
+        flex-wrap: wrap;
+        background-color: white;
+        justify-content: center;
+    }
+
+    .logoHeader{
+        width: 40%;
+    }
+    .textoCarrusel{
+        font-size: 100%;
+        font-family: 'Roboto', sans-serif;
+        letter-spacing: 0px;
+    }
+       .Envios{
+        flex-wrap: wrap;
+        font-size: 100%;
+        font-family: 'Roboto', sans-serif;
+        justify-content: center;
+    }
+    .instagram{
+        margin-left: 300px;
+    }
+
+    .parrafoEnvio{
+        flex-wrap: wrap;
+        font-size: 100%;
+        font-family: 'Roboto', sans-serif;
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+    }
+
+    .ImagenEnvios{
+        margin: 0px;
+        width: 60%;
+    }
+
+}
+
+@media only screen and (min-width:500px) and (max-width:1080px){
+
+    .logoHeader{
+        width: 30%;
+    }
+    .Envios{
+        flex-wrap: wrap;
+        justify-content: center;
+
+    }
+    
+    .instagram{
+        margin-left: 80px;
+        
+    }
+    .logoContacto{
+        width: 10%;
+    }
+    
+}
+
+@media only screen and (min-width:1081px) and (max-width:10000px){
+    .logoHeader{
+        width: 5%;
+    }
+    .logoContacto{
+        width: 10%;
+    }
+
+    .ImagenEnvios{
+        width: 25%;
+    } 
+}
