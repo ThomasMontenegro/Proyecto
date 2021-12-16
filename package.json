@@ -1,11 +1,16 @@
 {
-  "name": "proyecto-bootstrap2",
+  "name": "bambina-disegno",
   "version": "1.0.0",
-  "description": "",
+  "description": "tienda de manualidades y artesanias",
   "main": "index.js",
+  "dependencies": {
+    "aos": "^2.3.4",
+    "nodemon":"^2.0.15",
+    "bootstrap": "^5.1.3"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Thomas Montenegro",
   "license": "ISC"
 }
