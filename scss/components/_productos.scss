@@ -12,6 +12,15 @@
     text-decoration: underline;
 }
 
+.menuProductos{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    font-family:'Roboto', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 200px;
+}
 .pProductos{
     text-align: center;
     display: flex;
@@ -24,7 +33,19 @@
     border-radius: 15px;
     padding: 20px;
 }
-
+ .pProductosAlmohadon{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0px 0px 8px 5px rgb(0 0 0 / 60%);
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+ }
 .pProductosFin{
     font-family:'Roboto', sans-serif;
     font-size: 3rem;
@@ -33,7 +54,7 @@
 }
 
 .imgProductos:hover{
-    transform: scale(3);
+    transform: scale(2);
 }
 
 .mates{
@@ -41,6 +62,7 @@
     justify-content: space-between;
     align-items: flex-start;
     margin-left: 25px;
+    margin-bottom: 200px;
 }
 
 .velas{
@@ -48,6 +70,7 @@
     justify-content: space-between;
     align-items: flex-start;
     margin-left: 25px;
+    margin-bottom: 200px;
 }
 
 .almohadones{
@@ -55,6 +78,7 @@
     justify-content: space-between;
     align-items: flex-start;
     margin-left: 25px;
+    margin-bottom: 200px;
 }
 
 .macetas{
@@ -62,4 +86,5 @@
     justify-content: space-between;
     align-items: flex-start;
     margin-left: 25px;
+    margin-bottom: 200px;
 }
