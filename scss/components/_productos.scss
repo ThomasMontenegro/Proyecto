@@ -24,12 +24,18 @@
     font-size: 2rem;
     margin-bottom: 200px;
 }
+
+.liProductos:hover {
+    background-color: pink;
+    transition-duration: 1s;
+  }
+  
 .pProductos{
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
     box-shadow: 0px 0px 8px 5px rgb(0 0 0 / 60%);
     background-color: white;
@@ -41,8 +47,8 @@
     text-align: center;
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: space-around;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
     box-shadow: 0px 0px 8px 5px rgb(0 0 0 / 60%);
     background-color: white;

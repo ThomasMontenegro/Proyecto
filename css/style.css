@@ -40,7 +40,7 @@ header {
 
 .liHeader:hover {
   background-color: pink;
-  transition-duration: 1s;
+  transition-duration: 0.5s;
 }
 
 footer {
@@ -116,37 +116,46 @@ footer {
   font-size: 2rem;
   text-align: center;
   text-decoration: underline;
+  z-index: 2;
 }
 
 .menuProductos {
+  background-color: white;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
   list-style: none;
   font-family: "Roboto", sans-serif;
+  z-index: 4;
   font-size: 2rem;
   margin-bottom: 200px;
+}
+
+.liProductos:hover {
+  background-color: pink;
+  transition-duration: 0.5s;
 }
 
 .pProductos {
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
   box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.6);
   background-color: white;
   border-radius: 15px;
   padding: 20px;
+  width: 200px;
 }
 
 .pProductosAlmohadon {
   text-align: center;
   display: flex;
   flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: space-around;
+  flex-direction: row;
+  justify-content: center;
   align-items: center;
   box-shadow: 0px 0px 8px 5px rgba(0, 0, 0, 0.6);
   background-color: white;
@@ -163,7 +172,8 @@ footer {
 }
 
 .pProductos:hover {
-  transform: scale(2);
+  transform: scaleY(1.2);
+  
 }
 
 .mates {
