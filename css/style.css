@@ -485,25 +485,20 @@ footer {
     width: 10%;
   }
 
-  .Envios {
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
+  .parrafoEnvio {
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    color: black;
+    line-height: 40px;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    padding: 40px;
+    margin: 25px;
   }
 
-  /*.parrafoEnvio{
-      display: flex;
-      flex-wrap: wrap;
-  font-family: "Roboto", sans-serif;
-  font-size: 40px;
-  color: black;
-  line-height: 40px;
-  letter-spacing: 0.2rem;
-  text-transform: uppercase;
-  }*/
-  /*.ImagenEnvios{
-      width: 50%;
-  }*/
+  .ImagenEnvios {
+    width: 25%;
+  }
 }
 /*mapas*/
 header {
