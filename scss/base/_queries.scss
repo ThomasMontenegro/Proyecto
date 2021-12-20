@@ -1,17 +1,16 @@
-@media only screen and (max-width:499px){
+
+/*Celulares*/
+@media only screen and (max-width:480px){
     .header{
         flex-wrap: wrap;
         background-color: white;
+        background-repeat: repeat;
         justify-content: center;
     }
 
     .logoHeader{
-        width: 40%;
-    }
-    .textoCarrusel{
-        font-size: 100%;
-        font-family: 'Roboto', sans-serif;
-        letter-spacing: 0px;
+        width: 15%;
+        margin-left: 20px;
     }
        .Envios{
         flex-wrap: wrap;
@@ -19,9 +18,7 @@
         font-family: 'Roboto', sans-serif;
         justify-content: center;
     }
-    .instagram{
-        margin-left: 300px;
-    }
+    
 
     .parrafoEnvio{
         flex-wrap: wrap;
@@ -37,9 +34,57 @@
         width: 60%;
     }
 
+.ulFooter{
+    margin: 0% !important;
 }
 
-@media only screen and (min-width:500px) and (max-width:1080px){
+.logoMarcaFooter{
+    width: 40%;
+}
+.mailContacto{
+    display: none;
+}
+.footerA{
+    display: none;
+}
+.instagram{
+    width: 30%;
+    justify-content: center;
+    
+}
+.redes{
+    width: 30%;
+    flex-direction: row;
+    
+}
+}
+/*tablets*/
+@media only screen and (min-width:481px) and (max-width:768px){
+    .logoHeader{
+        width: 10%;
+    }
+    .Envios{
+        flex-wrap: wrap;
+        font-size: 100%;
+        font-family: 'Roboto', sans-serif;
+        justify-content: center;
+    }
+    .logoMarcaFooter{
+        width: 60%;
+        
+    }
+    .mailContacto{
+        display: none;
+    }
+    .instagram{
+        width: 30%;
+    }
+    .redes{
+        width: 30%;
+    }
+  }
+/*pantallas pequeñas, notebooks*/
+@media only screen and (min-width:769px) and (max-width:1024px){
 
     .logoHeader{
         width: 30%;
@@ -47,7 +92,7 @@
     .Envios{
         flex-wrap: wrap;
         justify-content: center;
-
+        width: 10%;
     }
     
     .instagram{
@@ -60,15 +105,30 @@
     
 }
 
-@media only screen and (min-width:1081px) and (max-width:10000px){
+/*desktop*/
+@media only screen and (min-width:1025px) and (max-width:10000px){
     .logoHeader{
         width: 5%;
     }
     .logoContacto{
         width: 10%;
     }
-
-    .ImagenEnvios{
-        width: 25%;
-    } 
+    .Envios{
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    /*.parrafoEnvio{
+        display: flex;
+        flex-wrap: wrap;
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    color: black;
+    line-height: 40px;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+    }*/
+    /*.ImagenEnvios{
+        width: 50%;
+    }*/
 }

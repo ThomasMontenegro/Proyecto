@@ -12,10 +12,12 @@
     font-size: 2rem;
     text-align: center;
     text-decoration: underline;
+    z-index: 1;
     
 }
 
 .menuProductos{
+    background-color: white;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -23,6 +25,7 @@
     font-family:'Roboto', sans-serif;
     font-size: 2rem;
     margin-bottom: 200px;
+    z-index: 2;
 }
 
 .liProductos:hover {
@@ -41,7 +44,7 @@
     background-color: white;
     border-radius: 15px;
     padding: 20px;
-    
+    margin: 20px;
 }
  .pProductosAlmohadon{
     text-align: center;
@@ -64,7 +67,7 @@
 }
 
 .pProductos:hover{
-    transform: scale(2);
+    transform: scaleY(1.2);
 }
 
 .mates{
