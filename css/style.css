@@ -426,6 +426,15 @@ footer {
     width: 30%;
     flex-direction: row;
   }
+
+  .productosVariedad {
+    font-size: 3rem;
+  }
+
+  .pProductos {
+    width: 100%;
+    flex-direction: column;
+  }
 }
 /*tablets*/
 @media only screen and (min-width: 481px) and (max-width: 768px) {
@@ -441,7 +450,7 @@ footer {
   }
 
   .logoMarcaFooter {
-    width: 60%;
+    width: 40%;
   }
 
   .mailContacto {
@@ -455,11 +464,30 @@ footer {
   .redes {
     width: 30%;
   }
+
+  .productosVariedad {
+    font-size: 3rem;
+  }
+
+  .pProductos {
+    width: 20%;
+    align-items: flex-start;
+    margin: 5px;
+  }
+
+  .pProductosAlmohadon {
+    width: 20%;
+    margin: 5px;
+  }
+
+  .pProductosFin {
+    font-size: 2rem;
+  }
 }
 /*pantallas pequeñas, notebooks*/
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
   .logoHeader {
-    width: 30%;
+    width: 10%;
   }
 
   .Envios {
@@ -473,7 +501,27 @@ footer {
   }
 
   .logoContacto {
-    width: 10%;
+    width: 20%;
+  }
+
+  .redes {
+    width: 25%;
+  }
+
+  .instagram {
+    width: 25%;
+  }
+
+  .pProductos {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 40px;
+  }
+
+  .pProductosAlmohadon {
+    width: 60%;
+    margin: auto;
+    margin-bottom: 40px;
   }
 }
 /*desktop*/
