@@ -140,6 +140,10 @@
         margin: auto;
         margin-bottom: 40px;
     }
+    .VolverHome{
+        font-size: 3rem !important;
+    }
+
 }
 
 /*desktop*/
@@ -163,4 +167,74 @@
     .ImagenEnvios{
         width: 25%;
     }
+    
+    .pProductos{
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 8px 5px rgb(0 0 0 / 60%);
+        background-color: white;
+        border-radius: 15px;
+        padding: 20px;
+        margin: 20px;
+        width: 400px;
+  }
+  .pProductosAlmohadon{
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 8px 5px rgb(0 0 0 / 60%);
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+ }
+.pProductosFin{
+    font-family:'Roboto', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.pProductos:hover{
+    transform: scaleY(1.2);
+}
+
+.mates{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 25px;
+    margin-bottom: 320px;
+}
+
+.velas{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 25px;
+    margin-bottom: 320px;
+}
+
+.almohadones{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 25px;
+    margin-bottom: 320px;
+}
+
+.macetas{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-left: 25px;
+    margin-bottom: 320px;
+}
 }
