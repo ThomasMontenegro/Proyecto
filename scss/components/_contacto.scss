@@ -10,7 +10,10 @@
 .contacto{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     padding: 20px;
+    margin: auto;
+    width: 50%;
 }
 
 .contactoBody{

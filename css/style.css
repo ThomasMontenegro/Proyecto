@@ -359,7 +359,10 @@ footer {
 .contacto {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   padding: 20px;
+  margin: auto;
+  width: 50%;
 }
 
 .contactoBody {
@@ -406,14 +409,10 @@ footer {
   }
 
   .logoMarcaFooter {
-    width: 40%;
+    width: 20%;
   }
 
   .mailContacto {
-    display: none;
-  }
-
-  .footerA {
     display: none;
   }
 
@@ -435,6 +434,14 @@ footer {
     width: 100%;
     flex-direction: column;
   }
+
+  .h2Contacto {
+    font-size: 2rem;
+  }
+
+  .contacto {
+    width: 100%;
+  }
 }
 /*tablets*/
 @media only screen and (min-width: 481px) and (max-width: 768px) {
@@ -450,7 +457,7 @@ footer {
   }
 
   .logoMarcaFooter {
-    width: 40%;
+    width: 20%;
   }
 
   .mailContacto {
@@ -482,6 +489,18 @@ footer {
 
   .pProductosFin {
     font-size: 2rem;
+  }
+
+  .imagenGrid {
+    width: 40%;
+  }
+
+  .h2Contacto {
+    font-size: 4rem;
+  }
+
+  .contactoBody {
+    font-size: 100px;
   }
 }
 /*pantallas pequeñas, notebooks*/
@@ -526,6 +545,14 @@ footer {
 
   .VolverHome {
     font-size: 3rem !important;
+  }
+
+  .imagenGrid {
+    width: 40%;
+  }
+
+  .contacto {
+    width: 80%;
   }
 }
 /*desktop*/
