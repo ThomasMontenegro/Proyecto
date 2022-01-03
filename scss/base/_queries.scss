@@ -11,29 +11,7 @@
     .logoHeader{
         width: 15%;
         margin-left: 20px;
-    }
-       .Envios{
-        flex-wrap: wrap;
-        font-size: 100%;
-        font-family: 'Roboto', sans-serif;
-        justify-content: center;
-    }
-    
-
-    .parrafoEnvio{
-        flex-wrap: wrap;
-        font-size: 100%;
-        font-family: 'Roboto', sans-serif;
-        padding: 0px;
-        margin: 0px;
-        text-align: center;
-    }
-
-    .ImagenEnvios{
-        margin: 0px;
-        width: 60%;
-    }
-
+      }
 .ulFooter{
     margin: 0% !important;
 }
@@ -55,13 +33,78 @@
     flex-direction: row;
     
 }
+
+/*ventana home*/
+
+
+.Envios{
+    flex-wrap: wrap;
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+}
+
+
+.parrafoEnvio{
+    flex-wrap: wrap;
+    font-size: 100%;
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.ImagenEnvios{
+    margin: 0px;
+    width: 60%;
+}
+
+/*ventana productos*/
+
 .productosVariedad{
     font-size: 3rem;
 }
 .pProductos{
-    width: 100%;
+    width: 60%;
+    margin-left: 80px;
+    flex-wrap: wrap;
     flex-direction: column;
 }
+.pProductosAlmohadon{
+    width: 60%;
+    margin-left: 80px;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+/*ventana promociones*/
+
+.mainPro{
+display: block;
+}
+.imagenGrid{
+    width: 50%;
+    margin-left: 100px;
+}
+.textoMix{
+    margin-left: 50px;
+}
+/*Ventana nosotros*/
+.imagenNosotros{
+    margin-left: 50px;
+}
+.pNosotros{
+    font-size: 20px;
+}
+.ubicacion{
+    margin-right: 30px;
+}
+
+.pUbi{
+    font-size: 20px;
+}
+/*ventana contacto*/
+
 .h2Contacto{
     font-size: 2rem;
 }
@@ -93,6 +136,18 @@
     .redes{
         width: 30%;
     }
+
+    /*ventana home*/
+
+    .Envios{
+        flex-wrap: wrap;
+        font-size: 100%;
+        font-family: 'Roboto', sans-serif;
+        justify-content: center;
+    }
+    
+    /*ventana productos*/
+
     .productosVariedad{
         font-size: 3rem;
     }

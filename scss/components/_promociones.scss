@@ -16,10 +16,15 @@
     display: grid;
     grid-template-columns: repeat(6,1fr);
     grid-template-rows: repeat(3,1fr);
-    /*grid-template-areas: "imagen1 texto1 imagen2 texto2 imagen3 texto3"
+    grid-template-areas: "imagen1 texto1 imagen2 texto2 imagen3 texto3"
                           "imagen4 texto4 imagen5 texto5 imagen6 texto6"
-                          "imagen7 texto7 imagen8 texto8 imagen9 texto9";*/
+                          "imagen7 texto7 imagen8 texto8 imagen9 texto9";
 
+}
+.textoMix{
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 15px;
 }
 .imagen1{
     grid-area: 1/1/2/2;

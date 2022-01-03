@@ -181,6 +181,7 @@ footer {
 
 .mates {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
   margin-left: 25px;
@@ -189,6 +190,7 @@ footer {
 
 .velas {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
   margin-left: 25px;
@@ -197,6 +199,7 @@ footer {
 
 .almohadones {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
   margin-left: 25px;
@@ -205,6 +208,7 @@ footer {
 
 .macetas {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: flex-start;
   margin-left: 25px;
@@ -225,9 +229,13 @@ footer {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(3, 1fr);
-  /*grid-template-areas: "imagen1 texto1 imagen2 texto2 imagen3 texto3"
-                        "imagen4 texto4 imagen5 texto5 imagen6 texto6"
-                        "imagen7 texto7 imagen8 texto8 imagen9 texto9";*/
+  grid-template-areas: "imagen1 texto1 imagen2 texto2 imagen3 texto3" "imagen4 texto4 imagen5 texto5 imagen6 texto6" "imagen7 texto7 imagen8 texto8 imagen9 texto9";
+}
+
+.textoMix {
+  font-size: 2em;
+  font-family: "Roboto", sans-serif;
+  margin-left: 15px;
 }
 
 .imagen1 {
@@ -389,27 +397,6 @@ footer {
     margin-left: 20px;
   }
 
-  .Envios {
-    flex-wrap: wrap;
-    font-size: 100%;
-    font-family: "Roboto", sans-serif;
-    justify-content: center;
-  }
-
-  .parrafoEnvio {
-    flex-wrap: wrap;
-    font-size: 100%;
-    font-family: "Roboto", sans-serif;
-    padding: 0px;
-    margin: 0px;
-    text-align: center;
-  }
-
-  .ImagenEnvios {
-    margin: 0px;
-    width: 60%;
-  }
-
   .ulFooter {
     margin: 0% !important;
   }
@@ -432,15 +419,79 @@ footer {
     flex-direction: row;
   }
 
+  /*ventana home*/
+  .Envios {
+    flex-wrap: wrap;
+    font-size: 100%;
+    font-family: "Roboto", sans-serif;
+    justify-content: center;
+  }
+
+  .parrafoEnvio {
+    flex-wrap: wrap;
+    font-size: 100%;
+    font-family: "Roboto", sans-serif;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+  }
+
+  .ImagenEnvios {
+    margin: 0px;
+    width: 60%;
+  }
+
+  /*ventana productos*/
   .productosVariedad {
     font-size: 3rem;
   }
 
   .pProductos {
-    width: 100%;
+    width: 60%;
+    margin-left: 80px;
+    flex-wrap: wrap;
     flex-direction: column;
   }
 
+  .pProductosAlmohadon {
+    width: 60%;
+    margin-left: 80px;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+
+  /*ventana promociones*/
+  .mainPro {
+    display: block;
+  }
+
+  .imagenGrid {
+    width: 50%;
+    margin-left: 100px;
+  }
+
+  .textoMix {
+    margin-left: 50px;
+  }
+
+  /*Ventana nosotros*/
+  .imagenNosotros {
+    margin-left: 50px;
+  }
+
+  .pNosotros {
+    font-size: 20px;
+  }
+
+  .ubicacion {
+    margin-right: 30px;
+  }
+
+  .pUbi {
+    font-size: 20px;
+  }
+
+  /*ventana contacto*/
   .h2Contacto {
     font-size: 2rem;
   }
@@ -478,6 +529,15 @@ footer {
     width: 30%;
   }
 
+  /*ventana home*/
+  .Envios {
+    flex-wrap: wrap;
+    font-size: 100%;
+    font-family: "Roboto", sans-serif;
+    justify-content: center;
+  }
+
+  /*ventana productos*/
   .productosVariedad {
     font-size: 3rem;
   }
@@ -658,12 +718,6 @@ footer {
     margin-bottom: 320px;
   }
 }
-.textoMix {
-  font-size: 2em;
-  font-family: "Roboto", sans-serif;
-  margin-left: 15px;
-}
-
 /*extends*/
 .instagram, .footerContacto, .liFooter {
   font-family: "Roboto", sans-serif;

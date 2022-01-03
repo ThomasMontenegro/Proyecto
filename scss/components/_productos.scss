@@ -73,6 +73,7 @@
 
 .mates{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
     margin-left: 25px;
@@ -81,6 +82,7 @@
 
 .velas{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
     margin-left: 25px;
@@ -89,6 +91,7 @@
 
 .almohadones{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
     margin-left: 25px;
@@ -97,6 +100,7 @@
 
 .macetas{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
     margin-left: 25px;
