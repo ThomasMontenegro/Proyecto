@@ -48,3 +48,23 @@ main{
     margin-bottom: 40px;
 }
 
+.backToTop{
+    position: fixed;
+    right: 1px;
+    bottom: 1px;
+    display: flex;
+    justify-content: right;
+    z-index: 10;
+}
+.button{
+    width: 50px;
+    background-color: pink;
+    border: 1px solid black;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buttonTop{
+    width: 80%;
+}
