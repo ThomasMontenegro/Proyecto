@@ -722,7 +722,7 @@ footer {
     border-radius: 15px;
     padding: 20px;
     margin: 20px;
-    width: 400px;
+    width: 200px;
   }
 
   .pProductosAlmohadon {
@@ -737,6 +737,7 @@ footer {
     border-radius: 15px;
     padding: 20px;
     margin: 20px;
+    width: 200px;
   }
 
   .pProductosFin {
@@ -752,6 +753,7 @@ footer {
 
   .mates {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
     margin-left: 25px;
@@ -760,6 +762,7 @@ footer {
 
   .velas {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
     margin-left: 25px;
@@ -768,6 +771,7 @@ footer {
 
   .almohadones {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
     margin-left: 25px;
@@ -776,6 +780,7 @@ footer {
 
   .macetas {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
     margin-left: 25px;
